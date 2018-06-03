@@ -1,0 +1,11 @@
+open data set
+http://stats.moe.gov.tw/files/detail/103/103_student.csv
+http://stats.moe.gov.tw/files/detail/104/104_student.csv
+http://stats.moe.gov.tw/files/detail/105/106_student.csv
+http://stats.moe.gov.tw/files/detail/106/106_student.csv
+
+毙▅场盡皘穝ネ爹瞯琩高╰参
+https://stats.moe.gov.tw/enrollweb/Default.aspx
+
+ず現参璸琩高呼
+http://statis.moi.gov.tw/micst/stmain.jsp?sys=100
