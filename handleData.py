@@ -38,7 +38,7 @@ write = open(fileName_write,'w',newline='',encoding='utf-8')
 
 reader.readline()
 
-csv_header = ['學校代碼','學校名稱','日間∕進修別','等級別','學生數']
+csv_header = ['學校代碼','學校名稱','日間∕進修別','等級別','學生數','縣市名稱']
 
 rows = csv.reader(reader)
 writer = csv.writer(write)
@@ -51,6 +51,7 @@ for row in rows:
 		data.append(row[i])
 	data.append(degreeEnglish(row[3]))
 	data.append(StudentNumber(row))
+	data.append(row[20])
 	write_data.append(data)
 
 for i in write_data:
