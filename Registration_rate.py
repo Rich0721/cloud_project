@@ -32,7 +32,7 @@ write = open(fileName_write,'w',newline='',encoding='utf-8')
 
 reader.readline()
 
-header = ['學年度','學校類別','設立別','學校名稱','日間/進修','學制別','新生註冊率']
+header = ['學校類別','設立別','學校名稱','日間/進修','學制別','新生註冊率']
 
 rows = csv.reader(reader)
 writer = csv.writer(write)
@@ -41,7 +41,7 @@ write_data = []
 
 for row in rows:
 	deal_data = []
-	deal_data.append(row[0])
+
 	deal_data.append(row[1])
 	deal_data.append(row[2])
 	deal_data.append(row[3][5:])
